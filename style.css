@@ -27,12 +27,10 @@ p {
 }
 
 /* CSS FOR SECOND SECTION */
-/* .second-container {
-    justify-content: space-between;
-} */
 
 .second-content {
     display: flex;
+    justify-content: space-between;
 }
 
 .h1-second-left {
@@ -47,12 +45,51 @@ p {
     border-radius: 20px;
     background: #5C8984;
     color: #fff;
+    font-size: 14px;
     padding: 10px 30px;
     margin: 20px 0px;
 }
 
 .img-second-right {
-    width: 800px;
-    height: 600px;
+    width: 634px;
+    height: 476px;
 }
 /* END CSS FOR SECOND SECTION */
+
+/* CSS FOR THIRD SECTION */
+.third-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-left img {
+    width: 634px;
+    height: 475px;
+}
+
+.third-right h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.third-right h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.p-third-section {
+    font-size: 16px;
+    margin: 8px 0px 16px;
+}
+
+.btn-third-section {
+    border-radius: 20px;
+    background: #5C8984;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 30px;
+    margin: 20px 0px;
+}
+/* END CSS FOR THIRD SECTION */
