@@ -1,3 +1,28 @@
-h1 {
-    color: cyan;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding: 120px 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    text-align: center;
+}
+
+h4 {
+    color: #222;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+
+p {
+    margin: 0px 16px;
 }
